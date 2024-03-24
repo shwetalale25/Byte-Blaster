@@ -1,0 +1,50 @@
+.Driver_card {
+    margin: auto;
+    width: 80%;
+    height: 60vh;
+    padding: 10px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.live_video {
+    margin: auto;
+    width: 80%;
+    height: 75vh;
+    padding: 10px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+#video_feed{
+    width: 90%;
+    height: 65vh;
+    margin-inline: auto;
+}
+
+.actual_image{
+    width: 400px;
+    height:300px;
+}
+
+.left{
+    margin-right: 50px;
+}
+
+.models{
+    margin: auto;
+    width: 80%;
+    height: 10vh;
+    padding: 10px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.link{
+    padding-inline:50px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
