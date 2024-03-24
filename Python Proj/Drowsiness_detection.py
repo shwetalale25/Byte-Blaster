@@ -5,10 +5,10 @@ from pygame import mixer
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
-model = load_model("D:\Driver\models\model.h5")
+model = load_model("D:\Project\Python Proj\Model\model.h5")
 
 mixer.init()
-sound = mixer.Sound(r'D:\Driver\alarm.wav')
+sound = mixer.Sound(r'D:\Project\Python Proj\alarm.wav')
 
 def detect_faces():
     cap = cv2.VideoCapture(0)
